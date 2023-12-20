@@ -1,0 +1,28 @@
+{
+  "name": "potoo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.0",
+    "@nuxt/devtools": "latest",
+    "@unocss/nuxt": "^0.57.2",
+    "eslint": "^8.53.0",
+    "nuxt": "^3.8.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "overrides": {
+    "@polka/url": "1.0.0-next.23"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.0"
+  }
+}
