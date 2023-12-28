@@ -1,15 +1,94 @@
-:root{
-  --theme-primary-color: #3ba9ff;
-  --theme-secondary-color: #c86efd;
-  --theme-info-color: #f3f4f9;
-  --theme-warning-color: #ffc11b;
-  --theme-success-color: #00cb47;
-  --theme-danger-color: #ff406c;
-  --theme-text-color: #292C3A;
-  --theme-background-color: #F7F9FB;
+:root {
+
+  --color-bg: #F8FBF8;
+  --color-bg-input: rgba(0, 0, 0, 0.05);
+
+  --text-primary: #090b17;
+  --text-secondary: #676e8b;
+  
+
+  --blue-primary: rgb(61, 84, 178);
+  --blue-secondary: rgb(116, 181, 235);
+  --blue-bg: linear-gradient(to right, var(--blue-secondary), var(--blue-primary));
+  --blue-box-shadow: rgba(67, 102, 208, 0.3) 0px 10px 40px -10px;
+
+  --purple-primary: rgb(103, 59, 179);
+  --purple-secondary: rgb(192, 108, 233);
+  --purple-bg: linear-gradient(to right, var(--purple-secondary), var(--purple-primary));
+  --purple-box-shadow: rgba(84, 30, 181, 0.3) 0px 10px 40px -10px;
+
+  --pink-primary: rgb(173, 45, 105);
+  --pink-secondary: rgb(231, 112, 226);
+  --pink-bg: linear-gradient(to right, var(--pink-secondary), var(--pink-primary));
+  --pink-box-shadow: rgba(194, 59, 171, 0.3) 0px 10px 40px -10px;
+
+  --red-primary: rgb(162, 37, 21);
+  --red-secondary: rgb(243, 91, 103);
+  --red-bg: linear-gradient(to right, var(--red-secondary), var(--red-primary));
+  --red-box-shadow: rgba(234, 27, 27, 0.3) 0px 10px 40px -10px;
+
+  --orange-primary: rgb(211, 82, 41);
+  --orange-secondary: rgb(246, 170, 87);
+  --orange-bg: linear-gradient(to right, var(--orange-secondary), var(--orange-primary));
+  --orange-box-shadow: rgba(234, 97, 0, 0.3) 0px 10px 40px -10px;
+
+  --yellow-primary: rgb(239, 165, 18);
+  --yellow-secondary: rgb(250, 238, 48);
+  --yellow-bg: linear-gradient(to right, var(--yellow-secondary), var(--yellow-primary));
+  --yellow-box-shadow: rgba(238, 198, 23, 0.3) 0px 10px 40px -10px;
+
+  --green-primary: rgb(87, 178, 55);
+  --green-secondary: rgb(188, 234, 106);
+  --green-bg: linear-gradient(to right, var(--green-secondary), var(--green-primary));
+  --green-box-shadow: rgba(18, 171, 15, 0.3) 0px 10px 40px -10px;
+
+  --teal-primary: rgb(54, 140, 161);
+  --teal-secondary: rgb(142, 228, 224);
+  --teal-bg: linear-gradient(to right, var(--teal-secondary), var(--teal-primary));
+  --teal-box-shadow: rgba(67, 189, 190, 0.3) 0px 10px 40px -10px;
+
+  --greyscale-primary: rgb(76, 76, 76);
+  --greyscale-secondary: rgb(158, 158, 158);
+  --greyscale-bg: linear-gradient(to right, var(--greyscale-secondary), var(--greyscale-primary));
+  --greyscale-box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 40px -10px;
+
+  --color-brand-filled: #5340ff;
+  --color-brand-filled-hover: #3E30BF;
+  --color-brand-light: rgba(83, 64, 255, 0.1);
+  --color-brand-light-hover: rgba(83, 64, 255, 0.12);
+  --color-brand-light-color: #5340ff;
+  --color-brand-outline: #5340ff;
+  --color-brand-outline-hover: rgba(83, 64, 255, 0.05);
+
+  --color-error-filled: #F96167;
+  --color-error-filled-hover: #F73038;
+  --color-error-light: rgba(249, 97, 103, 0.1);
+  --color-error-light-hover: rgba(249, 97, 103, 0.12);
+  --color-error-light-color: #F96167;
+  --color-error-outline: #F96167;
+  --color-error-outline-hover: rgba(249, 97, 103, 0.05);
+
+  --color-black-filled: #090b17;
+  --color-black-filled-hover: #000000;
+  --color-black-light: rgba(9, 11, 23, 0.1);
+  --color-black-light-hover: rgba(9, 11, 23, 0.12);
+  --color-black-light-color: #090b17;
+  --color-black-outline: #090b17;
+  --color-black-outline-hover: rgba(9, 11, 23, 0.05);
+  --color-success-filled: #16c79e;
+  --color-success-filled-hover: #14B38E;
+  --color-success-light: rgba(22, 199, 158, 0.1);
+  --color-success-light-hover: rgba(22, 199, 158, 0.12);
+  --color-success-light-color: #16c79e;
+  --color-success-outline: #16c79e;
+  --color-success-outline-hover: rgba(22, 199, 158, 0.05);
+
 }
+
+.text-transparent {
+  -webkit-text-fill-color: transparent;
+}
+
 body {
   margin: 0;
-  color: var(--theme-text-color);
-  background-color: var(--theme-background-color);
 }
