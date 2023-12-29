@@ -2,12 +2,20 @@
 import process from 'node:process'
 
 export default defineNuxtConfig({
-  devtools: {
-    enabled: true,
+  app: {
+    head: {
+      title: 'Potoo',
+    },
   },
+
   css: [
     '~/assets/css/global.css',
   ],
+
+  devtools: {
+    enabled: true,
+  },
+
   modules: [
     '@unocss/nuxt',
     'nuxt-security',
